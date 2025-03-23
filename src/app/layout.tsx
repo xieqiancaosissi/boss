@@ -1,7 +1,8 @@
+'use client';
 import { AntdRegistry } from "@ant-design/nextjs-registry";
 import Layout from "./components/layout";
 import "./globals.css";
-
+export const runtime = 'edge';
 export default function RootLayout({
   children,
 }: Readonly<{
